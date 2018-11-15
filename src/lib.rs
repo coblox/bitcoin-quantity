@@ -14,7 +14,7 @@ use std::{
     str::FromStr,
 };
 
-#[derive(PartialEq, Clone, Debug, Copy, PartialOrd)]
+#[derive(PartialEq, Clone, Debug, Copy, PartialOrd, Ord, Eq, Hash)]
 pub struct BitcoinQuantity(u64);
 
 impl BitcoinQuantity {
