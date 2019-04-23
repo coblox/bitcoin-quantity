@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = [ "CoBloX developers <team@coblox.tech>" ]
 
 [dependencies]
-bigdecimal = "0.1.0"
+bigdecimal = "0.1"
 serde = { version = "1", optional = true }
 
 [dev-dependencies]
